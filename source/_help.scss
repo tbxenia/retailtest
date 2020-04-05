@@ -1,0 +1,40 @@
+/* help */
+
+.bank-help {
+	background: url('../img/help_pic_full.png') no-repeat center 132px;
+	margin-top: 82px;
+	padding-bottom: 180px;
+	.bank-help_title {
+		@extend %page-title;
+		margin-bottom: 16px;
+	}
+	
+	.bank-help_subtitle {
+		@extend %page-subtitle;
+		
+		span {
+			color: $color-gold;
+		}
+	}
+	
+	.bank-help_container {
+		width: 255px;
+		padding-top: 150px;
+		.bank-hcol {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 45px;		
+			.bank-hcol_img {
+				width: 45px;
+				margin-right: 17px;
+			}
+			
+			.bank-hcol_text {
+				font-size: 14px;
+				line-height: 20px;
+				color: $color-title;
+			}
+		}
+	}
+}

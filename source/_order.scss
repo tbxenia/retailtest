@@ -1,0 +1,115 @@
+/* order */
+
+.bank-order {
+	margin-top: 47px;
+	.bank-order_title {
+		@extend %page-title;
+	}
+	
+	.wrapper {
+		max-width: 850px;
+		.bank-order_container {
+			@extend %flex-wrapper;
+			padding-top: 38px;
+			.order-block {
+				@include flex(33.333%);
+				.order-number {
+					color: $color-gold;
+					margin-bottom: 2px;
+					span {
+						font-size: 36px;
+					}
+				}
+			}
+		}
+	}
+	
+	.bank {
+		margin-top: 70px;
+		.card-choose {
+			position: relative;
+			max-width: 1175px;
+			.tabs-nav {
+				font-size: 18px;
+				display: flex;
+				list-style: none;
+				position: absolute;
+				right: 0;
+				top: 2px;
+				li {
+					margin-right: 42px;
+					a {
+						color: $color-text-dark;
+					}
+					a.active {
+						color: $color-gold;
+					}
+				}
+			}
+			.tabs-items {
+				.tabs-item {
+					.wrapper {
+						max-width: 1175px;
+						display: flex;
+						.card-pic {
+							width: 589px;
+						}
+						.card-info {
+							 padding-top: 69px;
+							.card-info_button {
+								button {
+									background: $color-gold;
+									color: $color-title;
+									text-align: center;
+									border: 0;
+									padding: 25px 0 27px 0;
+									border-radius: 10px;
+									display: block;
+									cursor: pointer;
+									font-size: 24px;
+									max-width: 352px;
+									width: 100%;
+								}
+							}
+							
+							.card-info_table {
+								margin-top: 60px;
+								table {
+									font-family: $font-medium;
+									font-size: 14px;
+									border-collapse: collapse;
+									border: 0;
+									tr {
+										td {
+											vertical-align: top;
+											line-height: 26px;
+											p {
+												
+											}
+										}
+										td:nth-child(odd) {
+											color: $color-text-dark;
+										}
+										td:nth-child(even) {
+											color: $color-text-light;
+										}
+									}
+								}
+							}
+							.card-choose_link {
+								margin-top: 30px;
+								a {
+									color: $color-gold;
+									font-family: $font-medium;
+									border-bottom: 1px dotted $color-gold;
+									display: inline-block;
+									padding-bottom: 5px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

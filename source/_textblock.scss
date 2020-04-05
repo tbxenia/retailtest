@@ -1,0 +1,50 @@
+/* textblock */
+
+%position-title {
+	text-align: center;
+}
+
+$font-size:   14px;
+
+.bank-textblock {
+	margin-top: 274px;
+	.bank-textblock_title {
+		@extend %page-title;
+	}
+
+	.bank-textblock_subtitle {
+		@extend %page-subtitle;
+		color: $color-text-dark;
+	}
+
+	.wrapper {
+		max-width: 1000px;
+		
+		.bank-textblock_container {
+			@extend %flex-wrapper;
+			padding-top: 89px;
+			
+			
+			.bank-tbcol {
+				@include flex(25%);
+				
+				.bank-tbcol_img {
+					margin-bottom: 15px;
+				}
+				
+				.bank-tbcol_title {
+					font-size: 18px;
+					font-family: 'Geometria ExtraBold';
+					color: $color-title;
+					margin-bottom: 9px;
+				}
+				
+				.bank-tbcol_text {
+					margin-bottom: 10px;
+					font-size: $font-size;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}

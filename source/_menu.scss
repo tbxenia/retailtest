@@ -1,0 +1,35 @@
+/* menu */
+
+.menu {
+	display: none;
+	background: $color-menu;
+	max-width: 393px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	.menu-link {
+		ul {
+			font-size: 18px;
+			li {
+				a {
+					color: $color-link;
+				}
+			}
+		}
+	}
+	
+	.menu-contacts {
+		font-family: $font-medium;
+		.menu-contacts_phone {
+			.menu-contacts_country {
+				color: $color-text-dark;
+			}
+			a {
+				font-size: 24px;
+				color: $color-text-light;
+			}
+		}
+	}
+}

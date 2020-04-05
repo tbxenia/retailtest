@@ -1,0 +1,49 @@
+/* services */
+
+.bank-services {
+	padding: 147px 0 0 0;
+	
+	.bank-services_title {
+		@extend %page-title;
+	}
+	
+	.wrapper {
+		max-width: 980px;
+	
+		.bank-services_container {
+			@extend %flex-wrapper;
+			padding-top: 60px;
+			
+			.bank-scol {
+				@include flex(33.333%);
+				color: $color-text-dark;
+				margin-bottom: 22px;
+				
+				.bank-scol_img {
+					margin-bottom: 26px;
+				}
+				
+				.bank-scol_title {
+					font-family: $font-extrabold;
+					font-size: 18px;
+					color: $color-title;
+					line-height: 23px;
+					margin-bottom: 7px;
+				}
+				
+				.bank-scol_text {
+					line-height: 20px;
+				}
+				
+				.bank-scol_logos {
+					padding-top: 17px;
+					
+					img {
+						margin-right: 23px;
+						margin-bottom: 16px;
+					}
+				}
+			}
+		}
+	}
+}

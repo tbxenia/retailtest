@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Geometria Heavy';
+    src: url('../webfonts/Geometria-Heavy.eot');
+    src: local('Geometria Heavy'), local('Geometria-Heavy'),
+        url('../webfonts/Geometria-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Geometria-Heavy.woff2') format('woff2'),
+        url('../webfonts/Geometria-Heavy.woff') format('woff'),
+        url('../webfonts/Geometria-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria Bold';
+    src: url('../webfonts/Geometria-Bold.eot');
+    src: local('Geometria Bold'), local('Geometria-Bold'),
+        url('../webfonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Geometria-Bold.woff2') format('woff2'),
+        url('../webfonts/Geometria-Bold.woff') format('woff'),
+        url('../webfonts/Geometria-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria ExtraBold';
+    src: url('../webfonts/Geometria-ExtraBold.eot');
+    src: local('Geometria ExtraBold'), local('Geometria-ExtraBold'),
+        url('../webfonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Geometria-ExtraBold.woff2') format('woff2'),
+        url('../webfonts/Geometria-ExtraBold.woff') format('woff'),
+        url('../webfonts/Geometria-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria Medium';
+    src: url('../webfonts/Geometria-Medium.eot');
+    src: local('../webfonts/Geometria Medium'), local('Geometria-Medium'),
+        url('../webfonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Geometria-Medium.woff2') format('woff2'),
+        url('../webfonts/Geometria-Medium.woff') format('woff'),
+        url('../webfonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

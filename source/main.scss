@@ -1,0 +1,70 @@
+@import 'reset';
+@import 'fonts';
+
+$font-stack: Geometria Bold;
+$font-medium: Geometria Medium;
+$font-heavy: Geometria Heavy;
+$font-extrabold: Geometria ExtraBold;
+$color-text-dark: #6C6C6C;
+$color-text-light: #BBBBBB;
+$color-title: #FFFFFF;
+$color-link: #FFFFFF;
+$color-gold: #C0965C;
+$color-menu: #1C1C1B;
+
+%flex-wrapper { 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+%page-title {
+	font-family: $font-extrabold;
+	font-size: 30px;
+	text-align: center;
+	color: $color-title;
+	margin-bottom: 11px;
+}
+
+%page-subtitle {
+	font-size: 14px;
+	text-align: center;
+	color: $color-title;
+}
+
+@mixin flex($width) {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 $width;
+	flex: 0 0 $width;
+	max-width: $width;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+body {
+	background-color: #0e0e0e;
+	font-family: $font-stack;
+	color: $color-text-dark;
+	font-size: 14px;
+}
+
+.wrapper {
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@import 'menu';
+@import 'burger';
+@import 'header';
+@import 'textblock';
+@import 'services';
+@import 'help';
+@import 'order';
+@import 'footer';
